@@ -1,0 +1,27 @@
+.menu{
+  display: flex;
+  height: 40px;
+  z-index: 2;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 4vw;
+  box-shadow: -1.5px 5px 25px 5px #bde3ef;
+  background-color: #ffffff;
+  z-index: 5;
+}
+.btn, a{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  outline: none;
+}
+
+@media screen and (max-width: 575px) {
+  .btn, a{
+    font-size: 12px;
+  }
+  .menu {
+    height: 25px;
+  }
+}
